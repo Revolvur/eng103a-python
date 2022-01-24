@@ -11,3 +11,6 @@ print("The age difference between you and your dad is by " + str(age_diff) + " y
 # Ask 3 questions
 # Use the stores variables somehow, print out a response
 # Can you ask questions with numerical answers?
+
+print(f"You are {age} years old")  # formatted string
+print(f"You will be {age + 1} years old next year.")
