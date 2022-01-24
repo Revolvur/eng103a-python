@@ -20,3 +20,5 @@ print(13 // 3, 13 % 3)  # Division to a whole number = 4 to the lowest number wi
 third = 1 / 3
 print(third)
 print(third * 3)  # float
+
+print(25 ** 0.5)  # square root
