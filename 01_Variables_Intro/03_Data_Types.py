@@ -117,6 +117,7 @@ f = False
 
 hi = "Hello World"
 print(hi.replace(" ", "").isalpha())
+print(hi.strip(" World").isalpha())
 print(hi.lower().islower())
 print(hi.upper().isupper())
 print(hi.endswith("rld"))
