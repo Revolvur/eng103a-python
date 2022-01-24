@@ -53,40 +53,74 @@
 
 # Methods
 
-white_space = "     lots of white space      "
-print(len(white_space))
-print(white_space.strip())  # .methods
-print(white_space.lstrip())  # .methods l is from left and r from right
-white_space2 = "......lots of white space......"
-print(white_space2.strip("."))
-print(white_space.upper())
-print(white_space
-      .strip()
-      .capitalize())
+# white_space = "     lots of white space      "
+# print(len(white_space))
+# print(white_space.strip())  # .methods
+# print(white_space.lstrip())  # .methods l is from left and r from right
+# white_space2 = "......lots of white space......"
+# print(white_space2.strip("."))
+# print(white_space.upper())
+# print(white_space
+#       .strip()
+#       .capitalize())
+#
+# print(white_space.count(" "))  # how many times it occurs
+# print(white_space.strip().count(" "))  # how many times it occurs
+# print(white_space.replace("o", "ooooo").replace("i", "oooo").replace("a", "ooooo"))  # replaced 'o' with 'ooooo'
+#
+# print(white_space)  # these either change the thing or return
+#
+# # F-Strings
+#
+# pi = 3.14159265359
+# print(pi)
+# print(f"Pi to 3dp: {pi:.3f}")  # 3 d.p and f means float
+# print(f"Pi to 3dp: {pi:.5f}")
+# print(f"Pi to 3dp: {pi:.0f}")
+#
+# score = 16
+# max_score = 26
+#
+# print(f"You scored {score / max_score}")
+# print(f"You scored {score / max_score:.2f}")
+# print(f"You scored {score / max_score:%}")
+# print(f"You scored {score / max_score:.2%}")
+# print(f"You scored {score / max_score:.0%}")
 
-print(white_space.count(" "))  # how many times it occurs
-print(white_space.strip().count(" "))  # how many times it occurs
-print(white_space.replace("o", "ooooo").replace("i", "oooo").replace("a", "ooooo"))  # replaced 'o' with 'ooooo'
 
-print(white_space)  # these either change the thing or return
+# Boolean
 
-# F-Strings
+t = True
+f = False
 
-pi = 3.14159265359
-print(pi)
-print(f"Pi to 3dp: {pi:.3f}")  # 3 d.p and f means float
-print(f"Pi to 3dp: {pi:.5f}")
-print(f"Pi to 3dp: {pi:.0f}")
+# print(t, type(t))
+#
+# print(3 + 2 == 5)
+# print(12 % 3 == 0)
+# print(5 != 5)
+# print(1 < 100)
+# print(100 < 1)
+# print(5 < 5)
+# print(5 <= 5)
+# print(5 >= 5)
 
-score = 16
-max_score = 26
+# age = 19
+# drink = 'alcohol'
+#
+# print(age > 18 and drink == 'alcohol')
+#
+# age = 14
+# drink = 'alcohol'
+#
+# print(age > 18 and drink == 'alcohol')
+# print(age > 18 or drink == 'alcohol')
 
-print(f"You scored {score / max_score}")
-print(f"You scored {score / max_score:.2f}")
-print(f"You scored {score / max_score:%}")
-print(f"You scored {score / max_score:.2%}")
-print(f"You scored {score / max_score:.0%}")
-
+hi = "Hello World"
+print(hi.replace(" ", "").isalpha())
+print(hi.lower().islower())
+print(hi.upper().isupper())
+print(hi.endswith("rld"))
+print(hi.startswith("He"))
 
 
 
