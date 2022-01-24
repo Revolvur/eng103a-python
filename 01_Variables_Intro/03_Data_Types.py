@@ -60,7 +60,32 @@ print(white_space.lstrip())  # .methods l is from left and r from right
 white_space2 = "......lots of white space......"
 print(white_space2.strip("."))
 print(white_space.upper())
-print(white_space.strip().capitalize())
+print(white_space
+      .strip()
+      .capitalize())
+
+print(white_space.count(" "))  # how many times it occurs
+print(white_space.strip().count(" "))  # how many times it occurs
+print(white_space.replace("o", "ooooo").replace("i", "oooo").replace("a", "ooooo"))  # replaced 'o' with 'ooooo'
+
+print(white_space)  # these either change the thing or return
+
+# F-Strings
+
+pi = 3.14159265359
+print(pi)
+print(f"Pi to 3dp: {pi:.3f}")  # 3 d.p and f means float
+print(f"Pi to 3dp: {pi:.5f}")
+print(f"Pi to 3dp: {pi:.0f}")
+
+score = 16
+max_score = 26
+
+print(f"You scored {score / max_score}")
+print(f"You scored {score / max_score:.2f}")
+print(f"You scored {score / max_score:%}")
+print(f"You scored {score / max_score:.2%}")
+print(f"You scored {score / max_score:.0%}")
 
 
 
