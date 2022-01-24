@@ -25,4 +25,5 @@ print(set(l))
 x = frozenset(['let', 'it', 'go'])
 print(x)
 
-# frozen sets are immutable
+# frozen sets are immutable!
+
