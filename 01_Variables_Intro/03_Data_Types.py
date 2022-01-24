@@ -115,13 +115,38 @@ f = False
 # print(age > 18 and drink == 'alcohol')
 # print(age > 18 or drink == 'alcohol')
 
-hi = "Hello World"
-print(hi.replace(" ", "").isalpha())
-print(hi.strip(" World").isalpha())
-print(hi.lower().islower())
-print(hi.upper().isupper())
-print(hi.endswith("rld"))
-print(hi.startswith("He"))
+# hi = "Hello World"
+# print(hi.replace(" ", "").isalpha())
+# print(hi.strip(" World").isalpha())
+# print(hi.lower().islower())  # only cares about letters e.g. SJDJ 2323!! is still true
+# print(hi.upper().isupper())  # only cares about letters
+# print(hi.endswith("rld"))
+# print(hi.startswith("He"))
+# print(hi.isalnum())  # checks for letters and numbers
+
+# print(bool(1))
+# print(bool(0))
+# print(bool(32423523523523523523523))
+# print(bool(-4.5))  # bool always return true unless 0
+#
+# print(int(False))
+# print(int(True))
+# print(bool("")) #  string of length zero equals FALSE
+#
+# empty = ""
+# print(empty, type(empty), bool(empty))
+
+# none
+
+n = None
+
+print(n, type(n))  # normally used as place holder
+
+print(n is None)
+
+print(type(15) is int)  #  'is' to check class etc
+
+
 
 
 
