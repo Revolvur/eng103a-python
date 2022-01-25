@@ -14,7 +14,7 @@
 # # Q1b: Now print only the even numbers in this list (the elements that are themselves even)
 # x = [2, 5, 4, 87, 34, 2, 1, 31, 103, 99]
 #
-# for index in x:
+# for index in x:  # can also use x
 #     if index % 2 == 0:
 #         print(index)
 
@@ -91,10 +91,10 @@ names = ["Alan Turing", "Leonardo Fibonacci", "Katherine Johnson", "Annie Easley
 #
 # # A3a:
 #
-# for i in list_of_lists:
-#     set_no_dupes = set(i)
-#     if len(set_no_dupes) == len(i):
-#         print(i)
+# for sublist in list_of_lists:
+#     set_no_dupes = set(sublist)
+#     if len(set_no_dupes) == len(sublist):
+#         print(sublist)
 
 print("\nQ4a\n")
 # Q4a: Using a while loop, ask the user to input a number greater than 100, if they enter anything else,
