@@ -53,17 +53,25 @@
 
 # Type hints
 
-def greeting(name: str = "David"):
-    print("Hello to you, " + name + ".")
+# def greeting(name: str = "David"):
+#     print("Hello to you, " + name + ".")
+#
+#
+# greeting()
+#
+#
+# def double_plus_num(num1: int, num2: int):
+#     ans = str((num1 * 2) + num2)
+#     return ans
+#
+#
+# x = double_plus_num(5, 6)
+# print(x)
 
+def add_user():
+    """Create a new user.  # Doc string - documentation in PEP 8 format
+    Prompt for name and email address
+    Store in database
+    """
 
-greeting()
-
-
-def double_plus_num(num1: int, num2: int):
-    ans = str((num1 * 2) + num2)
-    return ans
-
-
-x = double_plus_num(5, 6)
-print(x)
+    pass  # does nothing but needs something inside function for indentation purposes too
