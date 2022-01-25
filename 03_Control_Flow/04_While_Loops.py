@@ -53,3 +53,15 @@ while prompt_user:
         print("Please provide a valid age in digits.")
 
 print(f"Double your age is {int(age) * 2}.")
+
+# valid = True
+
+# while valid = True
+# player_number = input("Enter a whole number.")
+#     if player_number.isdigit():
+#         valid = False  # breaks while loop
+#     else:
+#         print("Please enter a whole number ")   # figuring out how to do other methods for my program
+
+
+
