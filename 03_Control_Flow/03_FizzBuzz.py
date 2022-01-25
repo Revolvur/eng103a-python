@@ -15,6 +15,7 @@ user_input = None
 fizz_alt = 'fizz'  # fizz and buzz set unless prompted by user otherwise
 buzz_alt = 'buzz'
 
+
 while turns < 5:
 
     if user_input is None:  # if nothing in user_input
@@ -58,7 +59,7 @@ elif user_input.upper() == 'A':  # runs option A
                 print("Please enter a whole number.\n")
                 range_end = None  # resets to None
             continue
-    # code exits IF statement if variables are not None
+        # code exits IF statement if variables are not None
         fizz_alt = input("Enter the alternative word for fizz:\n")
         buzz_alt = input("Enter the alternative word for buzz:\n")
         break  # breaks while loop and continues onto next line

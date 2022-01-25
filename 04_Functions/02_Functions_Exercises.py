@@ -150,7 +150,7 @@ def prime(number):
         print("Not a prime number.")
 
 
-prime(2.9)
+prime(1000003)
 
 print("\nQ3b\n")
 
