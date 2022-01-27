@@ -5,7 +5,13 @@ import unittest  # core python test module
 
 class CalcTests(unittest.TestCase):
 
-    calc = SimpleCalc()
+    # calc = SimpleCalc()
+    def setUp(self):  # runs before every test
+        self.calc = SimpleCalc()
+        print("Setting up.")
+
+    def tearDown(self):
+        pass
 
     def test_add(self):
         actual = self.calc.add(2, 4)
