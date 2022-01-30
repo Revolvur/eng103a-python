@@ -1,4 +1,4 @@
-# The following functions
+# The following my_functions
 # Each should take 2 arguments
 # And return the appropriate calculation
 

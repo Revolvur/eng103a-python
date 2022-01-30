@@ -19,11 +19,23 @@
 # print(os.getpid())
 # print(os.name())
 
-import my_functions.os_functions as f
-from my_classes.game_class import Game
+# import packages.my_functions.os_functions as f
+# from my_classes.game_class import Game
+#
+# print(f.work_dir)
+# new_vegas = Game("Fallout New Vegas", "PC", 100)
+# print(new_vegas.name)
+#
+# print(f.return_new_vegas())
 
-print(f.work_dir)
-new_vegas = Game("Fallout New Vegas", "PC", 100)
-print(new_vegas.name)
+# PIP -> PIP Installs Packages (Auto-acronym)
 
-print(f.return_new_vegas())
+import requests, emoji
+
+r = requests.get("https://www.bbc.co.uk")
+print(r, type(r))
+
+print(r.status_code)
+print(r.content)
+
+print(emoji.emojize('Python is: thumbs_up:'))

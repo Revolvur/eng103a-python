@@ -1,4 +1,4 @@
-# fizzbuzz code as functions
+# fizzbuzz code as my_functions
 
 print("\nQ1a\n")
 

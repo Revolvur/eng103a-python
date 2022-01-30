@@ -6,7 +6,7 @@
 # # def local_scope():
 # #     x = 500
 # #     y = 700
-# #     return x, y  # pass between functions or global variable use return NOT PRINT!
+# #     return x, y  # pass between my_functions or global variable use return NOT PRINT!
 # #
 # #
 # # x, y = local_scope()

@@ -89,7 +89,6 @@ for new_num in list_of_numbers:
     # if num_pick.divisible_by_n(4):
     #     list_div.append(new_num)
 
-
 print(list_div)
 
 print("\nQ3a\n")
@@ -121,7 +120,5 @@ class GoodBoss(Boss):
 
     def encourage(self):
         print(f"The team cheers for {self.name}, starts shouting awesome slogans then gets back to work.")
-
-
 
 # A3a:
