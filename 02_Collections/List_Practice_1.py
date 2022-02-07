@@ -79,6 +79,7 @@ zipped_list_q5 = zip(list1_1, list2_1)
 for a, b in zipped_list_q5:  # a and b going through each string
     print(a, b)
 print("\n")
+
 #  Exercise 6: Remove empty strings from the list of strings
 print("Q6")
 
